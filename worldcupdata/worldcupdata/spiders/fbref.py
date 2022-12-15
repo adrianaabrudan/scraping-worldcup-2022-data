@@ -5,6 +5,7 @@ import time
 import random
 import pandas
 
+
 class TheAnalystSpider(scrapy.Spider):
     name = 'fbref'
     # allowed_domains = ['www.https://fbref.com']
@@ -29,10 +30,12 @@ class TheAnalystSpider(scrapy.Spider):
         headers = []
         for th in driver.find_elements("xpath", '//*[@id="stats_standard"]/thead/tr[2]/th'):
             headers.append(th.text)
-        data.append(headers)
+        data.append(headers[1:])
+
+        print(data)
 
         rows = driver.find_elements("xpath", '//*[@id="stats_standard"]/tbody/tr')
-        rows_len = len(rows)
+        rows_len = len(rows) + 1
 
         columns = driver.find_elements("xpath", '//*[@id="stats_standard"]/thead/tr[2]/th')
         columns_len = len(columns)
@@ -49,7 +52,7 @@ class TheAnalystSpider(scrapy.Spider):
         print(data)
 
         pd = pandas.DataFrame(data)
-        pd.to_csv("fbref.csv")
+        pd.to_csv("fbref.csv", index=False, header=False)
         yield {'row': data}
 
         driver.quit()

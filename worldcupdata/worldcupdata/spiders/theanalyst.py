@@ -37,20 +37,22 @@ class TheAnalystSpider(scrapy.Spider):
 
         data.append(headers)
 
-        for page in pages:
+        for page in pages[:2]:
             page_number = driver.find_element("xpath", '//*[@id="root"]/div/div/div/div[5]/div[2]/div[2]/div[3]/span').text
             page_number = int(page_number.split(' ')[0])
             if page == page_number:
 
                 rows = driver.find_elements("xpath", '//tbody/tr')
                 rows_len = len(rows)
+                print(rows_len)
 
                 columns = driver.find_elements("xpath", "//thead/tr[2]/th")
                 columns_len = len(columns)
+                print(columns_len)
 
-                for row in range(1, rows_len):
+                for row in range(1, rows_len + 1):
                     each_row = []
-                    for col in range(1, columns_len):
+                    for col in range(1, columns_len + 1):
                         element = driver.find_element("xpath", "//tr["+str(row)+"]/td["+str(col)+"]").text
                         each_row.append(element)
                     data.append(each_row)
@@ -66,7 +68,7 @@ class TheAnalystSpider(scrapy.Spider):
                     print("Data has been scraped")
 
         pd = pandas.DataFrame(data)
-        pd.to_csv("theanalysts.csv")
+        pd.to_csv("theanalysts.csv", index=False, header=False)
         yield {'row': data}
 
         driver.quit()
