@@ -32,7 +32,7 @@ class TheAnalystSpider(scrapy.Spider):
             headers.append(th.text)
         data.append(headers[1:])
 
-        print(data)
+        # print(data)
 
         rows = driver.find_elements("xpath", '//*[@id="stats_standard"]/tbody/tr')
         rows_len = len(rows) + 1
@@ -49,7 +49,7 @@ class TheAnalystSpider(scrapy.Spider):
                     row) + ']/td[' + str(col) + ']').text
                 each_row.append(element)
             data.append(each_row)
-        print(data)
+        # print(data)
 
         pd = pandas.DataFrame(data)
         pd.to_csv("fbref.csv", index=False, header=False)
