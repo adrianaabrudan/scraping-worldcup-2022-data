@@ -47,18 +47,16 @@ class TheAnalystSpider(scrapy.Spider):
             data.append(headers)
 
             if button == "players":
-                for page in pages[:2]:
+                for page in pages:
                     page_number = driver.find_element("xpath", '//*[@id="root"]/div/div/div/div[5]/div[2]/div[2]/div[3]/span').text
                     page_number = int(page_number.split(' ')[0])
                     if page == page_number:
 
                         rows = driver.find_elements("xpath", '//tbody/tr')
                         rows_len = len(rows)
-                        print(rows_len)
 
                         columns = driver.find_elements("xpath", "//thead/tr[2]/th")
                         columns_len = len(columns)
-                        print(columns_len)
 
                         for row in range(1, rows_len + 1):
                             each_row = []
