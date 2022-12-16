@@ -23,36 +23,51 @@ class TheAnalystSpider(scrapy.Spider):
     def parse(self, response, *args, **kwargs):
         driver = webdriver.Chrome(executable_path=r'./chromedriver')
         driver.get('https://fbref.com/en/comps/1/stats/World-Cup-Stats')
-        time.sleep(random.randint(5, 10))
+        time.sleep(random.randint(5, 7))
 
-        data = []
+        tags = ["stats_standard", "stats_squads_standard_for"]
 
-        headers = []
-        for th in driver.find_elements("xpath", '//*[@id="stats_standard"]/thead/tr[2]/th'):
-            headers.append(th.text)
-        data.append(headers[1:])
+        for tag in tags[1:]:
+            data = []
 
-        # print(data)
+            headers = []
+            for th in driver.find_elements("xpath", f'//*[@id="{tag}"]/thead/tr[2]/th'):
+                headers.append(th.text)
 
-        rows = driver.find_elements("xpath", '//*[@id="stats_standard"]/tbody/tr')
-        rows_len = len(rows) + 1
+            data.append(headers)
 
-        columns = driver.find_elements("xpath", '//*[@id="stats_standard"]/thead/tr[2]/th')
-        columns_len = len(columns)
+            rows = driver.find_elements("xpath", f'//*[@id="{tag}"]/tbody/tr')
+            rows_len = len(rows) + 1
 
-        rows_list = [i for i in range(1, rows_len) if i % 26 != 0]
+            columns = driver.find_elements("xpath", f'//*[@id="{tag}"]/thead/tr[2]/th')
+            columns_len = len(columns)
 
-        for row in rows_list:
-            each_row = []
-            for col in range(1, columns_len):
-                element = driver.find_element("xpath", '//*[@id="stats_standard"]/tbody/tr[' + str(
-                    row) + ']/td[' + str(col) + ']').text
-                each_row.append(element)
-            data.append(each_row)
-        # print(data)
+            rows_list = []
+            if tag == "stats_standard":
+                rows_list = [i for i in range(1, rows_len) if i % 26 != 0]
+            elif tag == "stats_squads_standard_for":
+                rows_list = [i for i in range(1, rows_len) if i % 26 != 0 and i % 27 != 0]
 
-        pd = pandas.DataFrame(data)
-        pd.to_csv("fbref.csv", index=False, header=False)
-        yield {'row': data}
+            for row in rows_list:
+                each_row = []
+                for col in range(1, columns_len):
+                    if col == 1:
+                        element = driver.find_element("xpath", f'//*[@id="{tag}"]/tbody/tr[' + str(row) + ']/th[1]').text
+                        each_row.append(element)
+                        element = driver.find_element("xpath", f'//*[@id="{tag}"]/tbody/tr[' + str(row) + ']/td[' + str(col) + ']').text
+                        each_row.append(element)
+                    else:
+                        element = driver.find_element("xpath", f'//*[@id="{tag}"]/tbody/tr[' + str(
+                            row) + ']/td[' + str(col) + ']').text
+                        each_row.append(element)
+                data.append(each_row)
+                # print(data)
+
+            pd = pandas.DataFrame(data)
+            if tag == "stats_standard":
+                pd.to_csv("fbref_players.csv", index=False, header=False)
+            elif tag == "stats_squads_standard_for":
+                pd.to_csv("fbref_teams.csv", index=False, header=False)
+            yield {'row': data}
 
         driver.quit()
