@@ -1,0 +1,251 @@
+#,Player,Team,Age,Club,Market value
+1,Kylian Mbappé,France,23,Paris Saint-Germain,€160.00m 
+2,Vinicius Junior,Brazil,22,Real Madrid,€120.00m 
+3,Phil Foden,England,22,Manchester City,€110.00m 
+4,Jamal Musiala,Germany,19,Bayern Munich,€100.00m 
+5,Jude Bellingham,England,19,Borussia Dortmund,€100.00m 
+6,Pedri,Spain,20,FC Barcelona,€100.00m 
+7,Federico Valverde,Uruguay,24,Real Madrid,€100.00m 
+8,Harry Kane,England,29,Tottenham Hotspur,€90.00m 
+9,Gavi,Spain,18,FC Barcelona,€90.00m 
+10,Bukayo Saka,England,21,Arsenal FC,€90.00m 
+11,Rafael Leão,Portugal,23,AC Milan,€85.00m 
+12,Aurélien Tchouameni,France,22,Real Madrid,€80.00m 
+13,Joshua Kimmich,Germany,27,Bayern Munich,€80.00m 
+14,Declan Rice,England,23,West Ham United,€80.00m 
+15,Rodrygo,Brazil,21,Real Madrid,€80.00m 
+16,Dusan Vlahovic,Serbia,22,Juventus FC,€80.00m 
+17,Kevin De Bruyne,Belgium,31,Manchester City,€80.00m 
+18,Rodri,Spain,26,Manchester City,€80.00m 
+19,Bernardo Silva,Portugal,28,Manchester City,€80.00m 
+20,Neymar,Brazil,30,Paris Saint-Germain,€75.00m 
+21,Mason Mount,England,23,Chelsea FC,€75.00m 
+22,Lautaro Martínez,Argentina,25,Inter Milan,€75.00m 
+23,Antony,Brazil,22,Manchester United,€75.00m 
+24,Rúben Dias,Portugal,25,Manchester City,€75.00m 
+25,Gabriel Jesus,Brazil,25,Arsenal FC,€75.00m 
+26,Bruno Fernandes,Portugal,28,Manchester United,€75.00m 
+27,Alphonso Davies,Canada,22,Bayern Munich,€70.00m 
+28,Kai Havertz,Germany,23,Chelsea FC,€70.00m 
+29,João Cancelo,Portugal,28,Manchester City,€70.00m 
+30,Jack Grealish,England,27,Manchester City,€70.00m 
+31,Raheem Sterling,England,28,Chelsea FC,€70.00m 
+32,Darwin Núñez,Uruguay,23,Liverpool FC,€70.00m 
+33,Matthijs de Ligt,Netherlands,23,Bayern Munich,€70.00m 
+34,Leroy Sané,Germany,26,Bayern Munich,€70.00m 
+35,Trent Alexander-Arnold,England,24,Liverpool FC,€70.00m 
+36,Marquinhos,Brazil,28,Paris Saint-Germain,€70.00m 
+37,Heung-min Son,South Korea,30,Tottenham Hotspur,€70.00m 
+38,Serge Gnabry,Germany,27,Bayern Munich,€65.00m 
+39,Achraf Hakimi,Morocco,24,Paris Saint-Germain,€65.00m 
+40,Leon Goretzka,Germany,27,Bayern Munich,€65.00m 
+41,Éder Militão,Brazil,24,Real Madrid,€60.00m 
+42,Sergej Milinković-Savić,Serbia,27,SS Lazio,€60.00m 
+43,Ronald Araújo,Uruguay,23,FC Barcelona,€60.00m 
+44,Gabriel Martinelli,Brazil,21,Arsenal FC,€60.00m 
+45,Kingsley Coman,France,26,Bayern Munich,€60.00m 
+46,Josko Gvardiol,Croatia,20,RB Leipzig,€60.00m 
+47,Thibaut Courtois,Belgium,30,Real Madrid,€60.00m 
+48,Ousmane Dembélé,France,25,FC Barcelona,€60.00m 
+49,Jules Koundé,France,24,FC Barcelona,€60.00m 
+50,Bruno Guimarães,Brazil,25,Newcastle United,€60.00m 
+51,Fabinho,Brazil,29,Liverpool FC,€55.00m 
+52,Marcus Rashford,England,25,Manchester United,€55.00m 
+53,James Maddison,England,26,Leicester City,€55.00m 
+54,Cristian Romero,Argentina,24,Tottenham Hotspur,€55.00m 
+55,Theo Hernández,France,25,AC Milan,€55.00m 
+56,Romelu Lukaku,Belgium,29,Inter Milan,€55.00m 
+57,Raphinha,Brazil,26,FC Barcelona,€50.00m 
+58,João Félix,Portugal,23,Atlético de Madrid,€50.00m 
+59,Dayot Upamecano,France,24,Bayern Munich,€50.00m 
+60,Pau Torres,Spain,25,Villarreal CF,€50.00m 
+61,Lisandro Martínez,Argentina,24,Manchester United,€50.00m 
+62,Lionel Messi,Argentina,35,Paris Saint-Germain,€50.00m 
+63,Lucas Hernández,France,26,Bayern Munich,€50.00m 
+64,Alisson,Brazil,30,Liverpool FC,€50.00m 
+65,William Saliba,France,21,Arsenal FC,€50.00m 
+66,Casemiro,Brazil,30,Manchester United,€50.00m 
+67,Frenkie de Jong,Netherlands,25,FC Barcelona,€50.00m 
+68,Eduardo Camavinga,France,20,Real Madrid,€50.00m 
+69,Ansu Fati,Spain,20,FC Barcelona,€50.00m 
+70,Richarlison,Brazil,25,Tottenham Hotspur,€50.00m 
+71,Virgil van Dijk,Netherlands,31,Liverpool FC,€50.00m 
+72,Kalvin Phillips,England,27,Manchester City,€45.00m 
+73,Jonathan David,Canada,22,LOSC Lille,€45.00m 
+74,Jurrien Timber,Netherlands,21,Ajax Amsterdam,€45.00m 
+75,Ederson,Brazil,29,Manchester City,€45.00m 
+76,Vitinha,Portugal,22,Paris Saint-Germain,€45.00m 
+77,Cody Gakpo,Netherlands,23,PSV Eindhoven,€45.00m 
+78,Lucas Paquetá,Brazil,25,West Ham United,€45.00m 
+79,Robert Lewandowski,Poland,34,FC Barcelona,€45.00m 
+80,Matheus Nunes,Portugal,24,Wolverhampton Wanderers,€45.00m 
+81,Pierre-Emile Höjbjerg,Denmark,27,Tottenham Hotspur,€45.00m 
+82,Ben White,England,25,Arsenal FC,€45.00m 
+83,José María Giménez,Uruguay,27,Atlético de Madrid,€40.00m 
+84,Ángel Correa,Argentina,27,Atlético de Madrid,€40.00m 
+85,Antonio Rüdiger,Germany,29,Real Madrid,€40.00m 
+86,Rúben Neves,Portugal,25,Wolverhampton Wanderers,€40.00m 
+87,Youri Tielemans,Belgium,25,Leicester City,€40.00m 
+88,Dani Olmo,Spain,24,RB Leipzig,€40.00m 
+89,Rodrigo Bentancur,Uruguay,25,Tottenham Hotspur,€40.00m 
+90,Piotr Zielinski,Poland,28,SSC Napoli,€40.00m 
+91,Bremer,Brazil,25,Juventus FC,€40.00m 
+92,Raphaël Varane,France,29,Manchester United,€40.00m 
+93,Mateo Kovacic,Croatia,28,Chelsea FC,€40.00m 
+94,Moisés Caicedo,Ecuador,21,Brighton & Hove Albion,€38.00m 
+95,Christian Pulisic,United States,24,Chelsea FC,€38.00m 
+96,Yéremy Pino,Spain,20,Villarreal CF,€38.00m 
+97,Thomas Partey,Ghana,29,Arsenal FC,€38.00m 
+98,Frank Anguissa,Cameroon,27,SSC Napoli,€38.00m 
+99,Aymeric Laporte,Spain,28,Manchester City,€38.00m 
+100,Carlos Soler,Spain,25,Paris Saint-Germain,€35.00m 
+101,Karim Benzema,France,35,Real Madrid,€35.00m 
+102,Rodrigo de Paul,Argentina,28,Atlético de Madrid,€35.00m 
+103,Edson Álvarez,Mexico,25,Ajax Amsterdam,€35.00m 
+104,Enzo Fernández,Argentina,21,SL Benfica,€35.00m 
+105,Ferran Torres,Spain,22,FC Barcelona,€35.00m 
+106,Niklas Süle,Germany,27,Borussia Dortmund,€35.00m 
+107,Marcelo Brozovic,Croatia,30,Inter Milan,€35.00m 
+108,Benjamin Pavard,France,26,Bayern Munich,€35.00m 
+109,Marcos Llorente,Spain,27,Atlético de Madrid,€35.00m 
+110,Amadou Onana,Belgium,21,Everton FC,€35.00m 
+111,Ibrahima Konaté,France,23,Liverpool FC,€35.00m 
+112,Giovanni Reyna,United States,20,Borussia Dortmund,€35.00m 
+113,Min-jae Kim,South Korea,26,SSC Napoli,€35.00m 
+114,Kalidou Koulibaly,Senegal,31,Chelsea FC,€35.00m 
+115,Karim Adeyemi,Germany,20,Borussia Dortmund,€35.00m 
+116,Diogo Costa,Portugal,23,FC Porto,€35.00m 
+117,Nico Schlotterbeck,Germany,23,Borussia Dortmund,€33.00m 
+118,Joachim Andersen,Denmark,26,Crystal Palace,€32.00m 
+119,Robert Sánchez,Spain,25,Brighton & Hove Albion,€32.00m 
+120,Alexis Mac Allister,Argentina,23,Brighton & Hove Albion,€32.00m 
+121,Diogo Dalot,Portugal,23,Manchester United,€32.00m 
+122,Julián Álvarez,Argentina,22,Manchester City,€32.00m 
+123,Conor Gallagher,England,22,Chelsea FC,€32.00m 
+124,Leandro Trossard,Belgium,28,Brighton & Hove Albion,€30.00m 
+125,Marc-André ter Stegen,Germany,30,FC Barcelona,€30.00m 
+126,Teun Koopmeiners,Netherlands,24,Atalanta BC,€30.00m 
+127,Nathan Aké,Netherlands,27,Manchester City,€30.00m 
+128,Charles De Ketelaere,Belgium,21,AC Milan,€30.00m 
+129,Randal Kolo Muani,France,24,Eintracht Frankfurt,€30.00m 
+130,Eric Dier,England,28,Tottenham Hotspur,€30.00m 
+131,Daichi Kamada,Japan,26,Eintracht Frankfurt,€30.00m 
+132,Harry Maguire,England,29,Manchester United,€30.00m 
+133,Aaron Ramsdale,England,24,Arsenal FC,€30.00m 
+134,Brenden Aaronson,United States,22,Leeds United,€30.00m 
+135,Otávio,Portugal,27,FC Porto,€30.00m 
+136,Youssoufa Moukoko,Germany,18,Borussia Dortmund,€30.00m 
+137,Marcus Thuram,France,25,Borussia Mönchengladbach,€30.00m 
+138,Paulo Dybala,Argentina,29,AS Roma,€30.00m 
+139,Yannick Carrasco,Belgium,29,Atlético de Madrid,€30.00m 
+140,Manuel Akanji,Switzerland,27,Manchester City,€30.00m 
+141,Andreas Christensen,Denmark,26,FC Barcelona,€30.00m 
+142,John Stones,England,28,Manchester City,€30.00m 
+143,João Palhinha,Portugal,27,Fulham FC,€28.00m 
+144,Denzel Dumfries,Netherlands,26,Inter Milan,€28.00m 
+145,Guido Rodríguez,Argentina,28,Real Betis Balompié,€28.00m 
+146,Aleksandar Mitrović,Serbia,28,Fulham FC,€28.00m 
+147,Julian Brandt,Germany,26,Borussia Dortmund,€28.00m 
+148,Timothy Castagne,Belgium,27,Leicester City,€28.00m 
+149,Granit Xhaka,Switzerland,30,Arsenal FC,€28.00m 
+150,Luke Shaw,England,27,Manchester United,€28.00m 
+151,Bryan Mbeumo,Cameroon,23,Brentford FC,€28.00m 
+152,Hirving Lozano,Mexico,27,SSC Napoli,€28.00m 
+153,Jesper Lindström,Denmark,22,Eintracht Frankfurt,€28.00m 
+154,Jordan Pickford,England,28,Everton FC,€28.00m 
+155,Steven Bergwijn,Netherlands,25,Ajax Amsterdam,€27.00m 
+156,David Raum,Germany,24,RB Leipzig,€26.00m 
+157,Emiliano Martínez,Argentina,30,Aston Villa,€25.00m 
+158,Unai Simón,Spain,25,Athletic Bilbao,€25.00m 
+159,Mattéo Guendouzi,France,23,Olympique Marseille,€25.00m 
+160,Noah Okafor,Switzerland,22,Red Bull Salzburg,€25.00m 
+161,Juan Foyth,Argentina,24,Villarreal CF,€25.00m 
+162,Ilkay Gündogan,Germany,32,Manchester City,€25.00m 
+163,Álvaro Morata,Spain,30,Atlético de Madrid,€25.00m 
+164,Youssouf Fofana,France,23,AS Monaco,€25.00m 
+165,Christian Eriksen,Denmark,30,Manchester United,€25.00m 
+166,Antoine Griezmann,France,31,Atlético de Madrid,€25.00m 
+167,Iñaki Williams,Ghana,28,Athletic Bilbao,€25.00m 
+168,Axel Disasi,France,24,AS Monaco,€25.00m 
+169,Jeremie Frimpong,Netherlands,22,Bayer 04 Leverkusen,€25.00m 
+170,Marco Asensio,Spain,26,Real Madrid,€25.00m 
+171,Gregor Kobel,Switzerland,25,Borussia Dortmund,€25.00m 
+172,Noussair Mazraoui,Morocco,25,Bayern Munich,€25.00m 
+173,Nico Williams,Spain,20,Athletic Bilbao,€25.00m 
+174,Edouard Mendy,Senegal,30,Chelsea FC,€25.00m 
+175,Takehiro Tomiyasu,Japan,24,Arsenal FC,€25.00m 
+176,Mario Pasalic,Croatia,27,Atalanta BC,€25.00m 
+177,Nayef Aguerd,Morocco,26,West Ham United,€25.00m 
+178,Hugo Guillamón,Spain,22,Valencia CF,€25.00m 
+179,André Silva,Portugal,27,RB Leipzig,€24.00m 
+180,Filip Kostić,Serbia,30,Juventus FC,€24.00m 
+181,Gonçalo Ramos,Portugal,21,SL Benfica,€24.00m 
+182,Matty Cash,Poland,25,Aston Villa,€22.00m 
+183,Leander Dendoncker,Belgium,27,Aston Villa,€22.00m 
+184,Lovro Majer,Croatia,24,Stade Rennais FC,€22.00m 
+185,David Raya,Spain,27,Brentford FC,€22.00m 
+186,Piero Hincapié,Ecuador,20,Bayer 04 Leverkusen,€22.00m 
+187,Djibril Sow,Switzerland,25,Eintracht Frankfurt,€22.00m 
+188,Ismaïla Sarr,Senegal,24,Watford FC,€22.00m 
+189,Tyrell Malacia,Netherlands,23,Manchester United,€22.00m 
+190,Thilo Kehrer,Germany,26,West Ham United,€22.00m 
+191,Weston McKennie,United States,24,Juventus FC,€21.00m 
+192,Brennan Johnson,Wales,21,Nottingham Forest,€20.00m 
+193,Raphaël Guerreiro,Portugal,28,Borussia Dortmund,€20.00m 
+194,Memphis Depay,Netherlands,28,FC Barcelona,€20.00m 
+195,Mehdi Taremi,Iran,30,FC Porto,€20.00m 
+196,Ben Davies,Wales,29,Tottenham Hotspur,€20.00m 
+197,Arthur Theate,Belgium,22,Stade Rennais FC,€20.00m 
+198,Denis Zakaria,Switzerland,26,Chelsea FC,€20.00m 
+199,Strahinja Pavlovic,Serbia,21,Red Bull Salzburg,€20.00m 
+200,Cristiano Ronaldo,Portugal,37,Without ClubWithout Club,€20.00m 
+201,Yunus Musah,United States,20,Valencia CF,€20.00m 
+202,Borna Sosa,Croatia,24,VfB Stuttgart,€20.00m 
+203,Nico Elvedi,Switzerland,26,Borussia Mönchengladbach,€20.00m 
+204,Andreas Skov Olsen,Denmark,22,Club Brugge KV,€20.00m 
+205,Nikola Vlasic,Croatia,25,Torino FC,€20.00m 
+206,Pablo Sarabia,Spain,30,Paris Saint-Germain,€20.00m 
+207,Pedro,Brazil,25,Clube de Regatas do Flamengo,€20.00m 
+208,Nikola Milenković,Serbia,25,ACF Fiorentina,€20.00m 
+209,Ricardo Horta,Portugal,28,SC Braga,€20.00m 
+210,Matthias Ginter,Germany,28,SC Freiburg,€20.00m 
+211,Luka Sucic,Croatia,20,Red Bull Salzburg,€20.00m 
+212,Pervis Estupiñán,Ecuador,24,Brighton & Hove Albion,€20.00m 
+213,Wout Faes,Belgium,24,Leicester City,€20.00m 
+214,Fred,Brazil,29,Manchester United,€20.00m 
+215,Breel Embolo,Switzerland,25,AS Monaco,€20.00m 
+216,Giorgian de Arrascaeta,Uruguay,28,Clube de Regatas do Flamengo,€19.00m 
+217,Manuel Ugarte,Uruguay,21,Sporting CP,€18.00m 
+218,Nick Pope,England,30,Newcastle United,€18.00m 
+219,José Sá,Portugal,29,Wolverhampton Wanderers,€18.00m 
+220,Adrien Rabiot,France,27,Juventus FC,€18.00m 
+221,Nahuel Molina,Argentina,24,Atlético de Madrid,€18.00m 
+222,Mohammed Salisu,Ghana,23,Southampton FC,€18.00m 
+223,Koke,Spain,30,Atlético de Madrid,€18.00m 
+224,Jan Bednarek,Poland,26,Aston Villa,€18.00m 
+225,Armel Bella-Kotchap,Germany,21,Southampton FC,€18.00m 
+226,Jérémy Doku,Belgium,20,Stade Rennais FC,€18.00m 
+227,Callum Wilson,England,30,Newcastle United,€18.00m 
+228,Eric García,Spain,21,FC Barcelona,€18.00m 
+229,Thomas Müller,Germany,33,Bayern Munich,€18.00m 
+230,Neco Williams,Wales,21,Nottingham Forest,€18.00m 
+231,Daniel Carvajal,Spain,30,Real Madrid,€18.00m 
+232,Conor Coady,England,29,Everton FC,€18.00m 
+233,Xavi Simons,Netherlands,19,PSV Eindhoven,€18.00m 
+234,Kamaldeen Sulemana,Ghana,20,Stade Rennais FC,€18.00m 
+235,Josip Sutalo,Croatia,22,GNK Dinamo Zagreb,€18.00m 
+236,Hakim Ziyech,Morocco,29,Chelsea FC,€17.00m 
+237,Tyler Adams,United States,23,Leeds United,€17.00m 
+238,Harry Wilson,Wales,25,Fulham FC,€17.00m 
+239,Sergiño Dest,United States,22,AC Milan,€16.00m 
+240,Daniel James,Wales,25,Fulham FC,€16.00m 
+241,William Carvalho,Portugal,30,Real Betis Balompié,€16.00m 
+242,Rasmus Kristensen,Denmark,25,Leeds United,€15.00m 
+243,Thiago Almada,Argentina,21,Atlanta United FC,€15.00m 
+244,Mikkel Damsgaard,Denmark,22,Brentford FC,€15.00m 
+245,Bono,Morocco,31,Sevilla FC,€15.00m 
+246,Jordan Henderson,England,32,Liverpool FC,€15.00m 
+247,Alejandro Balde,Spain,19,FC Barcelona,€15.00m 
+248,Kyle Walker,England,32,Manchester City,€15.00m 
+249,Nicolas Jackson,Senegal,21,Villarreal CF,€15.00m 
+250,Nicola Zalewski,Poland,20,AS Roma,€15.00m 

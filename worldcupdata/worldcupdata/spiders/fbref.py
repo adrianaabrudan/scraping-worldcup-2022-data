@@ -27,7 +27,7 @@ class TheAnalystSpider(scrapy.Spider):
 
         tags = ["stats_standard", "stats_squads_standard_for"]
 
-        for tag in tags[1:]:
+        for tag in tags:
             data = []
 
             headers = []
