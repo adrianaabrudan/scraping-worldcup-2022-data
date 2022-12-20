@@ -48,7 +48,7 @@ class TheAnalystSpider(scrapy.Spider):
 
             if button == "players":
                 for page in pages:
-                    page_number = driver.find_element("xpath", '//*[@id="root"]/div/div/div/div[5]/div[2]/div[2]/div[3]/span').text
+                    page_number = driver.find_element("xpath", '//*[@id="root"]/div/div/div/div[4]/div[2]/div[2]/div[3]/span').text
                     page_number = int(page_number.split(' ')[0])
                     if page == page_number:
 
@@ -69,7 +69,7 @@ class TheAnalystSpider(scrapy.Spider):
                         if page_number < 26:
                             sleep_time = random.randint(10, 20)
                             next_page = driver.find_element("xpath",
-                                                            '//*[@id="root"]/div/div/div/div[5]/div[2]/div[2]/div[3]/button[2]')
+                                                            '//*[@id="root"]/div/div/div/div[4]/div[2]/div[2]/div[3]/button[2]')
                             driver.execute_script("arguments[0].click();", next_page)
                             time.sleep(sleep_time)
                         else:
