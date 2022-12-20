@@ -93,9 +93,9 @@ class TheAnalystSpider(scrapy.Spider):
 
             pd = pandas.DataFrame(data)
             if button == "players":
-                pd.to_csv("theanalyst_players.csv", index=False, header=False)
+                pd.to_csv("theanalyst_files/theanalyst_players.csv", index=False, header=False)
             elif button == "teams":
-                pd.to_csv("theanalyst_teams.csv", index=False, header=False)
+                pd.to_csv("theanalyst_files/theanalyst_teams.csv", index=False, header=False)
             yield {'row': data}
 
         driver.quit()

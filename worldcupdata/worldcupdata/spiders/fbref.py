@@ -65,9 +65,9 @@ class TheAnalystSpider(scrapy.Spider):
 
             pd = pandas.DataFrame(data)
             if tag == "stats_standard":
-                pd.to_csv("fbref_players.csv", index=False, header=False)
+                pd.to_csv("fbref_files/fbref_players.csv", index=False, header=False)
             elif tag == "stats_squads_standard_for":
-                pd.to_csv("fbref_teams.csv", index=False, header=False)
+                pd.to_csv("fbref_files/fbref_teams.csv", index=False, header=False)
             yield {'row': data}
 
         driver.quit()
